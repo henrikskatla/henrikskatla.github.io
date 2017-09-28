@@ -1,0 +1,49 @@
+#klage {
+    position: relative;
+    top: 0;
+    left: 0;
+    color: red;
+    border: 2px solid gray;
+    border-radius: 15%;
+    box-shadow: 3px 3px 3px rgba(30, 10, 90, 0.7);
+    outline: none;    
+}
+
+button:hover {
+    background-color: blue;
+    color: white;
+    animation: stikkAv 100ms;
+    animation-fill-mode: forwards;
+}
+
+button:active {
+    transform: translate(3px, 3px);
+    box-shadow: none;
+}
+
+@keyframes stikkAv {
+    0% { top: 0; left: 0;}
+    100% {top: 500px; left: 500px;}
+}
+
+#main div {
+    background: url("hjerte.png");
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    left:100px;
+    top:100px;
+    transition: 1s;
+}
+
+#main div:hover {
+    background: url("hjerte.png");
+    width: 50%;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20em;
+    height: 20em;
+}

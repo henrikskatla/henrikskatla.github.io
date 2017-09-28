@@ -1,0 +1,20 @@
+#animasjon {
+    Position: absolute;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 360px;
+    background: url("snoopy.png");
+    background-size: contain; 
+    background-repeat: no-repeat;
+    animation: gaaTur 6s linear infinite;
+    animation-fill-mode: forwards;
+}
+
+@keyframes gaaTur {
+    0% {top:60%; left:0%;transform: rotate(0deg);}
+    25% {top:60%; left:63%; transform: rotate(0deg);}
+    50% {top:0%; left:63%; transform: rotate(0deg);}
+    75% {top:0%; left:0%; transform: rotate(0deg);}
+    100% {top:60%; left:0%; transform: rotate(0deg);}
+}

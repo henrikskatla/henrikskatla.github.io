@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <title>DJI Phantom 3</title>
+     <link href="header.css" rel="stylesheet">
+</head>
+<body>
+ <header>
+   
+  <div>
+
+   <img src="DJI.phantom3.png"width="287"height="80">
+
+   <ul>
+        <li><a href="index.html">Hjem</a></li>
+        <li><a href="about.html">Om produktet</a></li>
+        <li><a href="gallery.html">Galleri</a></li>
+        <li><a href="animasjon.html">Animasjon</a></li>
+        <li><a href="contact.html">Kontakt</a></li>     
+        <li><a href="side9.html">9</a></li>                       
+   </ul>
+
+  </div>
+ </header>
+
+ <div id="main">
+        <div id="kontaktinfo">
+                <table>
+                        <caption>Kontakt informasjon</caption>
+                        <thead>
+                                <tr><th>Telefon</th>
+                                        <td>916 13 492</td></tr>
+                                </thead>
+                                <tr><th>E-post</th>
+                                <td>henrik.s.katla@gmail.com</td></tr>
+                </table>
+        </div>
+
+        <form id="skjema">
+                <br><label>Fornavn <input id="fornavn" type="text"> </label>
+                <br><label>Etternavn <input id="etternavn" type="text"> </label>
+                <br><label>Adresse <input type="text"> </label>
+                <br><label>Alder<input type="number"> </label>            
+                <br><button id="lagre" type="button">Lagre</button>
+            </form>
+            <script>
+                    let btn = document.getElementById("lagre");
+                    
+                    btn.addEventListener("click", lagreData);
+    
+                    function lagreData () {
+                    let fornavn = document.getElementById("fornavn").value;
+                    let etternavn = document.getElementById("etternavn").value;
+                            alert("Hei" + " " + fornavn + " " + etternavn + ". Du er nå registrert.");
+                    }
+            </script>
+</main>
+
+        <div id="menyl"></div>
+        <div id="menyr"></div>
+</body>
+</html>

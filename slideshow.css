@@ -1,0 +1,27 @@
+:root {
+    --slideshow-bg: #AFADAD;
+}
+
+#slideshow {
+    background: url("slide1.jpg");
+    position: relative;
+    right: 0;
+    left: 0;
+    top: 0em;
+    bottom: 2em;
+    width: calc(100% - 4em);
+    height: calc(100% - 4em);
+    border: 5px solid gray;
+    border-radius: 2em;
+    background-color: var(--slideshow-bg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    animation: slideshow 6s infinite;
+}
+
+@keyframes slideshow {
+    0% { background-image: url("slide1.jpg")}
+    33% { background-image: url("slide2.jpg")}
+    67% { background-image: url("slide3.jpg")}
+}
