@@ -2,17 +2,12 @@ body {
     background-image: linear-gradient(to left, white,#ccc);;
 }
 
-#meny {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    box-shadow: 3px 3px rbga(0,100,100,0.7);
-    }
+body {
+    background: beige;
+}
     
     body {
-        background-image: linear-gradient(to left, #00BDFF,#ADFF00);;
+        background-image: linear-gradient(to left, #00BDFF,#ADFF00);
         position: absolute;
         left: 35%;
         bottom: 40%;
