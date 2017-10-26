@@ -1,9 +1,0 @@
-div p::first-letter {
-    color: rgba(255, 0, 0, 0.70);
-    font-size: 10em;
-    font:italic small-caps bold 4em cursive;
-    padding-right:0.1em
-}
-div {
-overflow: scroll;
-}
