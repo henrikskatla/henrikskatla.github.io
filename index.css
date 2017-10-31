@@ -3,11 +3,11 @@ body {
 }
 
 body {
-    background: beige;
+    background: linear-gradient(to left, #00BDFF,#ADFF00);
 }
     
-    body {
-        background-image: linear-gradient(to left, #00BDFF,#ADFF00);
+    body ul {
+        background-image: grey;
         position: absolute;
         left: 35%;
         bottom: 40%;
@@ -38,7 +38,7 @@ body {
         border-radius: 5px;
         box-shadow: 3px 3px 3px gray; 
         }
-         
+
      body li a:hover {
         box-shadow: 3px 3px 3px black; 
         }
@@ -52,4 +52,51 @@ body {
         background: whitesmoke;
         color:blue;
         }
-}
+
+        body ol {
+            background-image: grey;
+            position: absolute;
+            left: 0;
+            bottom: 95%;
+            width: 20%;
+            height: 10%;
+            top: 0;
+         }
+    
+             
+        body ol {
+            list-style-type: none;
+            -webkit-padding-start: 0;
+            }
+             
+        body ol {
+            list-style: none;
+            display: block;
+            }
+             
+        body ol a {
+            text-decoration: none;
+            color:black;
+            display: block;
+            margin: 8px;
+            text-align: center;
+            padding-top:10px;
+            height: 2em;
+            background: linear-gradient(to bottom, grey,lightgray);
+            border-radius: 5px;
+            box-shadow: 3px 3px 3px gray; 
+            }
+    
+         body ol a:hover {
+            box-shadow: 3px 3px 3px black; 
+            }
+             
+        body ol a:active {
+            transform: translate(2px,2px); 
+            box-shadow: none; 
+            }
+             
+        body ol a.showing {
+            background: whitesmoke;
+            color:blue;
+            }
