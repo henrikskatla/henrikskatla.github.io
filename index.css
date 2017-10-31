@@ -100,3 +100,10 @@ body {
             background: whitesmoke;
             color:blue;
             }
+
+body div {
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    top: 15%;
+}
