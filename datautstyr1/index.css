@@ -85,23 +85,26 @@ h1 {
 }
 
 #innhold {
-    display: flex;
+    display: block;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    overflow: scroll;    
 }
     #innhold div {
-        background: #5BDF6E;
+        background: #0092FF;
         width: 20em;
         height: 25em;
-        margin: 1em;
+        margin: 0.5em;
         margin-left: 20em;
         margin-top: 10em;
         padding: 0.5em;
+        line-height: 1.5em;
+        border-radius: 20px;
         }
 
 }
-div div b {
+#innhold {
     overflow: scroll;
     }
 
