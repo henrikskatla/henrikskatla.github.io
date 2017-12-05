@@ -1,12 +1,14 @@
 :root {
-    --fyll: 10px;
+    --fyll:10px;
 }
 
+
+
 header {
-    color: green;
+    color:green;
     font-size: 1.2em;
     padding: var(--fyll);
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 article {
@@ -18,9 +20,9 @@ article {
     width: 90vw;
     min-height: 50vh;
     border: 2px solid red;
+    padding: 1em;
 }
 
 .kunde {
-    background-color: whitesmoke;
-
+  background-color: whitesmoke;
 }
