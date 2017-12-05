@@ -19,13 +19,31 @@
  <main>
 <div id="nike">
         <img src="nike.png"width="200"height="170">
-        Nike hurarache, pris 1199, vekt 190 gram
+        <p><div>Nike hurarache, pris 1199, vekt 190 gram</p></div>
 </div>
 
 <div id="adidas">
         <img src="adidas.png"width="210"height="140">
-        <span>Adidas, pris 899, vekt 220 gram</span>
+        <p><div>Adidas, pris 899, vekt 220 gram</div></p>
 </div>
+
+<p>Bestill her</p>
+<form id="skjema">
+        <br><label>Velg vare <input type="text"> </label>
+        <br><label>Antall <input id="antall" type="text"> </label>
+        <br><label>Adresse <input type="text"> </label>
+        <br><label>Betaling med<input type="text"> </label>            
+        <br><button id="bestill" type="button">Lagre</button>
+    </form>
+    <script>
+            let btn = document.getElementById("bestill");
+            
+            btn.addEventListener("click", lagreData);
+
+            function lagreData () {
+                    alert("Hei" + ". Bestillingen din er nå motatt.");
+            }
+    </script>
 
 
 <div id="meny"></div>

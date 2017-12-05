@@ -82,7 +82,7 @@ header ul {
     bottom: 50%;
     background-size: contain;
     background-repeat: no-repeat;
-    color:whitesmoke;
+    color:black;
 }
 #adidas {
     position: fixed;
@@ -92,5 +92,16 @@ header ul {
     bottom: 50%;
     background-size: contain;
     background-repeat: no-repeat;
-    color:whitesmoke;
+    color:black;
+}
+
+#skjema {
+    position: fixed;
+    left: 20%;
+    right: 60%;
+    top: 60%;
+    bottom: 10%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color:black;
 }
