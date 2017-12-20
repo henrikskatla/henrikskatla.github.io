@@ -123,3 +123,22 @@
     background-size: 100px;
     background-repeat: no-repeat;
 }
+
+#saludos {
+    position: absolute;
+    left: 3%;
+    right: 77%;
+    top: 40%;
+    bottom: 40%;
+}
+
+#snømann {
+    position: absolute;
+    left: 400px;
+    bottom: -150px;
+    width: 17em;    
+    height: 20em;
+    background-image: url(santa1.png);
+    background-size: 150px;
+    background-repeat: no-repeat;
+}
