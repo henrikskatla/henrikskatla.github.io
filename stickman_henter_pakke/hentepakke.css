@@ -1,0 +1,44 @@
+#main {
+    position: relative;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    top: 10px;
+    width: 80vw;
+}
+
+#man {
+    position: absolute;
+    left: 0;
+    top: calc(100vh - 140px);
+    width: 112px;
+    height: 112px;
+    background-image: url("stickman.png");
+    background-position-x: 0;
+    background-position-y: -223px;
+    animation:  legs 1000ms infinite steps(8),
+                walk 12s linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes legs {
+    100% {
+        background-position-x: -894px;
+    }
+}
+
+@keyframes walk {
+    100% {
+        left: 70vw;
+    }
+}
+
+#boks {
+    position: absolute;
+    left: 80vw;
+    top: calc(100vh - 60px);
+    width: 30px;
+    height: 30px;
+    border: solid gray 1px;
+    border-radius: 3px;
+}

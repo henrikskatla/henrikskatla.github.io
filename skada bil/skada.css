@@ -1,0 +1,97 @@
+#bil {
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    background-image: url("skadabil.png");
+    background-size: 300px 150px;
+    background-repeat: no-repeat;
+}
+
+#bil {
+    animation:  drive 4s forwards, 
+                liftup 2s 4s forwards;
+}
+
+#lift {
+    position: absolute;
+    left: 70vw;
+    top: 49vw;
+    width: 300px;
+    height: 10px;
+    background-image: url("heis.png");
+    background-size: 300px 10px;
+}
+
+#lift {
+    animation: liftup 2s 4s forwards;
+}
+
+@keyframes drive {
+    0% {
+        left: 10vw;
+        top: 40vw;
+    }
+    100% {
+        left: 70vw;
+        top: 40vw;
+    }
+}
+
+@keyframes liftup {
+    0% {
+        left: 70vw;
+        top: 40vw;
+    }
+    100% {
+        left: 70vw;
+        top: 25vw;
+    }
+}
+
+#rolls {
+    position: absolute;
+    left: 70vw;
+    top: 25vw;
+    width: 300px;
+    height: 150px;
+    background-image: url("rolls.png");
+    background-size: 300px 120px;
+    background-repeat: no-repeat;
+}
+
+#rolls {
+    animation:  liftdown 2s 26s forwards,
+                driveout 3s 28s forwards;
+}
+
+@keyframes liftdown {
+    0% {
+        left: 70vw;
+        top: 25vw;
+    }
+    100% {
+        left: 70vw;
+        top: 40vw;
+    }
+}
+
+@keyframes driveout {
+    0% {
+        left: 70vw;
+        top: 40vw;
+    }
+    100% {
+        left: 10vw;
+        top: 40vw;
+    }
+}
+
+#garasjedor {
+    position: absolute;
+    left: 70vw;
+    top: 25vw;
+    width: 300px;
+    height: 200px;
+    background-image: url(garasje.png);
+    background-size: 300px 200px;
+}
