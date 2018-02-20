@@ -1,0 +1,121 @@
+body {
+	background: #00FFE2;
+	padding: 20px;
+}
+
+#brett {
+    border: solid black 1px;
+    width: calc( 60px * 8 );
+    height: calc( 60px * 8 );
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+#brett div {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+}
+
+#brett div:nth-child(odd) {
+    background-color: black;
+}
+
+#brett div:nth-child(2n+9) {
+    background-color: white;
+}
+
+#brett div:nth-child(2n+10) {
+    background-color: black;
+}
+
+#brett div:nth-child(2n+17) {
+    background-color: black;
+}
+
+#brett div:nth-child(2n+18) {
+    background-color: white;
+}
+
+#brett div:nth-child(2n+25) {
+    background-color: white;
+}
+
+#brett div:nth-child(2n+26) {
+    background-color: black;
+}
+
+#brett div:nth-child(2n+33) {
+    background-color: black;
+}
+
+#brett div:nth-child(2n+34) {
+    background-color: white;
+}
+
+#brett div:nth-child(2n+41) {
+    background-color: white;
+}
+
+#brett div:nth-child(2n42) {
+    background-color: black;
+}
+
+#brett div:nth-child(2n+49) {
+    background-color: black;
+}
+
+#brett div:nth-child(2n+50) {
+    background-color: white;
+}
+
+#brett div:nth-child(2n+57) {
+    background-color: white;
+}
+
+#brett div:nth-child(2n+58) {
+    background-color: black;
+}
+
+#brett div:nth-child(2n+65) {
+    background-color: black;
+}
+
+#brett div:nth-child(2n+66) {
+    background-color: white;
+}
+
+div.bonde:after {
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: calc((50px - 30px) / 2);
+    width: 30px;
+    height: 10px;
+    background-color: whitesmoke;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px gray;
+}
+
+div.bonde:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: calc((50px - 25px) / 2);
+    width: 25px;
+    height: 30px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px gray;
+}
+
+div.bonde.svart:before {
+    background-color: black;
+    box-shadow: 2px 2px 20px white;
+}
+
+div.bonde.svart:after {
+    background-color: black;
+    box-shadow: 2px 2px 20px white;
+}
